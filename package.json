@@ -21,8 +21,11 @@
     "custom:start:dev": "prisma format && prisma validate && prisma generate && prisma db push && npm run start:dev"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.14.0",
+    "@grpc/proto-loader": "^0.8.0",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/microservices": "^11.1.6",
     "@nestjs/platform-express": "^11.1.6",
     "@prisma/client": "^6.16.3",
     "pdf-page-counter": "^1.0.3",
